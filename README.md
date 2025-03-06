@@ -40,25 +40,33 @@ Interview Copilot is a Spring Boot and React-based application designed to assis
    ```bash
    git clone https://github.com/your-username/interview-copilot.git
    cd interview-copilot
+   ```
+2. Update application.properties with your Gemini API key and Redis configuration:
+   ```bash
+   gemini.api.key=YOUR_GEMINI_API_KEY
+   spring.data.redis.host=localhost
+   spring.data.redis.port=6379
+   ```
+3. Build and run the backend:
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+   ```
 
-   
-##Usage
-Upload Resume: Use the file upload button to upload your resume (PDF).
+### Frontend (React)
 
-Ask Questions: Type your question in the text box and click "Ask Question".
+```bash
+cd frontend
+npm install
+npm start
+```
 
-View Answers: The system will generate a structured answer based on your resume and question.
+#Contact
+##For questions or feedback, reach out to:
 
-##API Endpoints
-###Backend
-POST /api/interview/upload-resume: Upload a resume (PDF).
+##Your Name: mohammedsufiyan2001@gmail.com
 
-Parameters: file (MultipartFile), sessionId (String)
+##GitHub: sufiyan98
 
-POST /api/interview/ask: Ask a question.
 
-Parameters: question (String), sessionId (String)
-
-###Frontend
-React App: Runs on http://localhost:3000  
 
