@@ -66,8 +66,7 @@ npm start
 
 ### **How to Use This README**
 1. Replace placeholders like `your-username`, `your-email@example.com`, and `YOUR_GEMINI_API_KEY` with your actual details.
-2. Add screenshots to the `screenshots` folder and update the paths in the **Screenshots** section.
-3. Push the `README.md` to your GitHub repository.
+
 
 Let me know if you need further adjustments! 🚀
 ---
