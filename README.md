@@ -61,12 +61,10 @@ npm install
 npm start
 ```
 ---
-#Contact
-##For questions or feedback, reach out to:
-
-##Your Name: mohammedsufiyan2001@gmail.com
-
-##GitHub: sufiyan98
+## Contact
+For questions or feedback, reach out to:
+mohammedsufiyan2001@gmail.com
+GitHub: sufiyan98
 
 
 
