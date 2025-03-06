@@ -40,3 +40,25 @@ Interview Copilot is a Spring Boot and React-based application designed to assis
    ```bash
    git clone https://github.com/your-username/interview-copilot.git
    cd interview-copilot
+
+   
+##Usage
+Upload Resume: Use the file upload button to upload your resume (PDF).
+
+Ask Questions: Type your question in the text box and click "Ask Question".
+
+View Answers: The system will generate a structured answer based on your resume and question.
+
+##API Endpoints
+###Backend
+POST /api/interview/upload-resume: Upload a resume (PDF).
+
+Parameters: file (MultipartFile), sessionId (String)
+
+POST /api/interview/ask: Ask a question.
+
+Parameters: question (String), sessionId (String)
+
+###Frontend
+React App: Runs on http://localhost:3000  
+
